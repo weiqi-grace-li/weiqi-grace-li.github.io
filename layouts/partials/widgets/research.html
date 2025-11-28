@@ -1,0 +1,101 @@
+
+
+{{/* Portfolio Widget */}}
+
+{{/* Initialise */}}
+{{ $ := .root }}
+{{ $st := .page }}
+
+{{- $research_projects := site.Data.research.research_projects -}}
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js"></script>
+
+<script>
+
+  function togglePaperContent(paperId) {
+    const el = document.getElementById(paperId);
+    if (el) {
+      if (el.style.display === "none") {
+        el.style.display = "block";
+      } else {
+        el.style.display = "none";
+      }
+    }
+  }
+</script>
+<div class="col-12 col-md-8 " >
+
+  <div class=" container home-pubs-section"  >
+
+
+      {{ range  $index, $item := $research_projects }}
+
+          {{ $pub_item := $item.Params }}
+
+          {{/*logical path: Returns the logical path of the given page.*/}}
+          {{/*{{ $page_folder := .Path }}*/}}
+          {{/*去掉最前面的 / */}}
+          {{ $page_folder := substr $item.Path 1 }}
+
+
+
+          {{/*cite.bib*/}}
+          {{ $cite_resource := $item.Resources.GetMatch "cite.bib" }}
+
+          <div class="row pub-item grid-sizer isotope-item year-{{ $pub_item.Date.Format "2006" }}" style=" ">
+            <div class="col-12 col-md-2">
+
+                <img style="margin-top: 0.5rem;" src="{{$item.image | relURL }}" data-zoomable />
+
+            </div>
+            <div class="col-12 col-md-10">
+              <div>
+                <div><span class="pub-title">{{ $item.title | markdownify | emojify }}</span></div>
+                <div><span class="pub-author">{{ $item.author_text | markdownify | emojify }}</span></div>
+                  {{ with $item.status_info }}
+                    <div><span class="pub-journal">{{ . | markdownify | emojify }}</span></div>
+                  {{ end }}
+              </div>
+
+              <div class="toggle-links-content">
+                  {{ with $item.links }}
+                    <div class="btn-links">
+                      <a class="btn btn-outline-primary btn-page-header btn-sm"
+                         href="javascript: togglePaperContent('pub_intro_idx{{$index}}')">
+                        <i class="fas fa-angle-double-down" >&nbsp;</i> ABS
+                      </a>
+
+                        {{ range $idx, $link_item := . }}
+                          {{$url := $link_item.url}}
+                          {{if eq $link_item.type "local"}}{{$url = $link_item.url | relURL}}{{end}}
+
+                          <a class="btn btn-outline-primary btn-page-header btn-sm"
+                             {{if ne $link_item.type "local"}}target="_blank" {{end}}
+                             href="{{ $url }}">
+                              {{ $link_item.name | markdownify | emojify }}
+                          </a>
+                        {{ end }}
+                    </div>
+                  {{ end }}
+
+                <div class="toggle-content " id="pub_intro_idx{{$index}}" style="display: none;">
+                  <div class=" ">{{ $item.abstract | markdownify | emojify  }}</div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+
+
+
+
+
+      {{ end }}
+
+
+  </div>
+</div>
+

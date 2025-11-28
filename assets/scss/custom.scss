@@ -1,0 +1,298 @@
+// Override this file to add your own SCSS styling.
+
+$text-primary-color: #ff3860;
+
+
+
+#profile {
+  .intro-line {
+    margin: 0.5rem 0 1rem 0;
+    font-weight: 300;
+  }
+}
+
+
+.wg-about{
+
+  ul.ul-edu li .description p.institution {
+    font-size: 0.75rem;
+    //color: $text-primary-color;
+    color: #000000;
+  }
+  .edu-details {
+    font-size: 0.75rem;
+    color: rgba(0, 0, 0, 0.6);
+  }
+}
+
+#research {
+  .research-list-wrap {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 10px;
+
+    .card-simple:first-of-type {
+      margin-top: 20px !important;
+    }
+  }
+
+  .section-heading h1 {
+    margin: 20px 0 10px 0;
+  }
+}
+
+
+
+.home-pubs-section {
+  .pub-title {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .pub-author {
+    font-size: 1rem;
+  }
+
+  .pub-journal {
+    font-style: italic;
+    // color: #a52a2a;
+    // font-weight: bold;
+  }
+
+  .pub-item {
+    padding: 0.5rem 0;
+    video, img {
+      width: 100%;
+    }
+  }
+
+
+  video {
+    //height: 8rem;
+    //width: 11rem;
+    //height: 8rem;
+    //background-color: #999;
+    //padding: 0.5rem;
+  }
+
+  .toggle-links-content{
+    position: relative;
+    .toggle-content {
+      border: 1px dashed lightgray;
+      padding: 1rem;
+      width: 90%;
+      text-align: justify;
+
+      pre {
+        font-size: 0.8rem;
+        color: #000000;
+      }
+    }
+  }
+
+}
+
+
+
+
+.experience-icon-image {
+  width: 80px;
+  max-height: 80px;
+  max-width: unset;
+}
+
+.home-prj-img-icon-wrap {
+  /*display: grid;
+  place-items: center;*/
+
+  .home-project-icon-image {
+    /*max-width: 150px !important;*/
+    margin-top: 0.5rem;
+
+  }
+}
+
+
+
+.home-pubs-section {
+  .pub-title {
+    font-weight: bold;
+  }
+}
+
+
+// 手机
+@media (max-width: 780px) {
+
+  .wg-about {
+    // h1 {
+    //  text-align: center;
+    //}
+  }
+  .research-list-wrap {
+    grid-template-columns: 1fr !important;
+  }
+
+}
+/* ====== Project page: sections & publications ====== */
+
+.section-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 18px;
+  background: #fafafa;
+  margin: 1.25rem 0;
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  font-weight: 700;
+  font-size: 1.05rem;
+  margin: 0 0 .65rem 0;
+}
+
+.subtle { color: #6b7280; }
+.small  { font-size: 14px; }
+.tiny   { font-size: 13px; }
+
+.divider { height: 1px; background: #ececec; margin: .75rem 0; border: 0; }
+
+.tight-list { margin: .25rem 0 0 1.2rem; }
+.tight-list li { margin: .25rem 0; }
+
+/* publications */
+.pub-item   { font-size: 14px; line-height: 1.6; margin: .2rem 0 .6rem 0; }
+.pub-authors{ font-weight: 600; }
+.pub-venue  { font-style: italic; }
+
+/* figure note */
+.fig-note { font-size: 13px; color: #6b7280; margin-top: .35rem; }
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  .section-card { background: #111827; border-color: #374151; }
+  .subtle, .fig-note { color: #9ca3af; }
+  .divider { background: #2b2f36; }
+}
+
+/* 手机端微调：让卡片更紧凑 */
+@media (max-width: 780px) {
+  .section-card { padding: 16px; }
+  .pub-item { font-size: 13.5px; }
+}
+/* ====== Overview 正文样式 ====== */
+.section-card p {
+  text-align: justify;        /* 两端对齐 */
+  font-size: 15px;            /* 略小于默认正文 */
+  line-height: 1.65;
+  margin-bottom: 0.8rem;
+  color: #333;                /* 比黑色淡一些，更柔和 */
+}
+
+/* ====== Publication 样式 ====== */
+.pub-item {
+  font-size: 14px;            /* 比 Overview 小一丢丢 */
+  line-height: 1.6;
+  margin: .2rem 0 .6rem 0;
+  color: #444;                /* 比 Overview 再淡一点 */
+}
+.pub-authors { font-weight: 600; }
+.pub-venue   { font-style: italic; }
+
+/* 深色模式优化 */
+@media (prefers-color-scheme: dark) {
+  .section-card p { color: #d1d5db; }  /* 淡灰色 */
+  .pub-item      { color: #c5c5c5; }
+}
+/* ====== 标题统一大小 ====== */
+.section-title {
+  font-size: 1.05rem;   /* 统一标题字号 */
+  font-weight: 700;
+}
+
+/* ====== 内容大小调整 ====== */
+
+/* Overview 正文 */
+.section-card p {
+  text-align: justify;
+  font-size: 15px;      /* 保持比子项略大 */
+  line-height: 1.65;
+  margin-bottom: 0.8rem;
+  color: #333;
+}
+
+/* Publication & Contributions 子项 */
+.pub-item,
+.tight-list li {
+  font-size: 14px;      /* 与 Publication 保持一致 */
+  line-height: 1.6;
+  color: #444;
+  margin-bottom: .4rem;
+}
+
+/* 深色模式优化 */
+@media (prefers-color-scheme: dark) {
+  .section-card p { color: #d1d5db; }
+  .pub-item, .tight-list li { color: #c5c5c5; }
+}
+/* ====== Section 标题统一 ====== */
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  font-weight: 700;
+  font-size: 1.05rem;      /* 统一字号 */
+  margin: 0 0 .65rem 0;
+}
+
+/* ====== Overview 正文（两端对齐，略大于子项） ====== */
+.section-card p {
+  text-align: justify;
+  font-size: 15px;         /* 比子项(14px)略大 */
+  line-height: 1.65;
+  margin-bottom: 0.8rem;
+  color: #333;
+}
+
+/* ====== Publication 与 Contributions 的子内容 ====== */
+.pub-item,
+.tight-list li {
+  font-size: 14px;         /* 与 Publication 保持一致 */
+  line-height: 1.6;
+  color: #444;
+  margin: .3rem 0;
+}
+
+/* Contributions 列表左对齐，不额外缩进 */
+.tight-list {
+  margin: 0;               /* 去外边距 */
+  padding-left: 0;         /* 去默认缩进 */
+  list-style-position: inside; /* 圆点与文本对齐 */
+}
+
+/* 卡片通用（若之前没有，可以保留；有的话可忽略） */
+.section-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 18px;
+  background: #fafafa;
+  margin: 1.25rem 0;
+}
+
+.divider { height:1px; background:#ececec; margin:.75rem 0; border:0; }
+.subtle { color:#6b7280; } .small { font-size:14px; } .tiny { font-size:13px; }
+.pub-authors { font-weight:600; } .pub-venue { font-style: italic; }
+
+/* 深色模式 */
+@media (prefers-color-scheme: dark) {
+  .section-card { background:#111827; border-color:#374151; }
+  .section-card p { color:#d1d5db; }
+  .pub-item, .tight-list li { color:#c5c5c5; }
+}
+/* 隐藏底部社交分享按钮 */
+.share, .page-footer .share, .content .share {
+  display: none !important;
+}
