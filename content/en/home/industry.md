@@ -19,9 +19,18 @@ design:
 ---
 
 
-#### Industry Experience
+#### Senior Data Analyst, TikTok, 2022-2024
 
-- Fall 2025: Introduction to Statisticsal Methods (BST 201)
- 
+FY23 Long-Term Contribution Award
 
- 
+_Skills: complex project management, cross-team collaboration, presentation_
+
+#### Business Intelligence Analyst, Alibaba, 2021-2022
+
+FY22 Best New Data Analyst (Sole recipient for Cainiao Business Unit) 
+
+_Skills: HPC workflows, Hadoop batch synchronized & Flink real time data, relational database, SQL, R, Python_
+
+#### Business Analyst Intern, Wayfair, 2019
+
+_Skills: R Shiny, R automated emails, AWS_ 

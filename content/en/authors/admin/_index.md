@@ -1,7 +1,7 @@
 ---
 
 title: Weiqi Grace Li
-intro_line: "I'm just passionately curious. <br> <i class=\"fas fa-map-marker-alt\"></i> Corvallis, Oregon"
+intro_line: "\"I'm just passionately curious\" <br> <i class=\"fas fa-map-marker-alt\"></i> Corvallis, Oregon"
 
 
 bio: 
@@ -106,5 +106,5 @@ Valedictorian, Class of 2021
 
 ### Latest News
 
-- November 13, 2025: Received [Seely’s Award](https://stat.oregonstate.edu/statistics-news-events/news-briefs/seely-and-gta-award-winners) recognizing “students with highest performance in comprehensive exams”. 
+- **November 13, 2025**: Received [Seely Award](https://stat.oregonstate.edu/statistics-news-events/news-briefs/seely-and-gta-award-winners) recognizing “students with highest performance in comprehensive exams”. 
 

@@ -39,7 +39,7 @@ design:
   #   4 = Citation (publication only)
   view: research_item_card
   list_css_class: "research-list-wrap"
-  columns: "2"
+  columns: "1"
   
   
 ---

@@ -2,6 +2,19 @@
 
 $text-primary-color: #ff3860;
 
+.navbar {
+  font-size: 1rem;
+  .nav-item{
+
+  }
+}
+
+
+.biography-content {
+  a {
+    text-decoration: underline;
+  }
+}
 
 
 #profile {
@@ -38,7 +51,8 @@ $text-primary-color: #ff3860;
   }
 
   .section-heading h1 {
-    margin: 20px 0 10px 0;
+    margin:  0 1rem;
+    text-align: left;
   }
 }
 
