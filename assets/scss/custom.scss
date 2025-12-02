@@ -52,10 +52,17 @@ $text-primary-color: #ff3860;
 
   .section-heading h1 {
     margin:  0 1rem;
+  }
+
+
+}
+
+
+#research, #teaching, #industry {
+  .section-heading h1 {
     text-align: left;
   }
 }
-
 
 
 .home-pubs-section {
