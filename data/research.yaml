@@ -8,8 +8,6 @@ research_projects:
       # - url: "research/r1.pdf"
         - url: "https://www.biorxiv.org/content/10.1101/2025.11.26.690782v1"
         name: "DOI"
-        # 本地连接
-        type: "local"
       # - url: "https://github.com/weiqi-grace-li/ctSVG-benchmarking"
       #   name: "CODE"
     abstract: |
