@@ -5,7 +5,8 @@ research_projects:
     image: "research/r1.png"
     status_info: "Preprint bioAxiv, 2025"
     links:
-      - url: "research/r1.pdf"
+      # - url: "research/r1.pdf"
+        - url: "https://www.biorxiv.org/content/10.1101/2025.11.26.690782v1"
         name: "DOI"
         # 本地连接
         type: "local"
