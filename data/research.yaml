@@ -3,7 +3,7 @@ research_projects:
   - title: "Benchmarking Cell-Type Specific Spatially Variable Gene Detection Methods Using a Realistic and Decomposable Simulation Framework"
     author_text: "**Weiqi Li**,  Xinzhou Ge†, Yuan Jiang†"
     image: "research/r1.png"
-    status_info: "Preprint bioAxiv, 2025"
+    status_info: "Preprint bioRxiv, 2025"
     links:
       # - url: "research/r1.pdf"
       - url: "https://www.biorxiv.org/content/10.1101/2025.11.26.690782v1"
