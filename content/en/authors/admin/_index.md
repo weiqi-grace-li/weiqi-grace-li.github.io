@@ -80,7 +80,7 @@ superuser: true
 ---
   
   
-I am a Master of Science student in Statistics with a minor in Artificial Intelligence at Oregon State University, advised by Prof. Yuan Jiang, and working closely with Prof. Xinzhou Ge. My research focuses on statistical and machine-learning methods for high-throughput sequencing and spatial omics data, with an emphasis on deriving biologically meaningful insights with translational potential.
+I am a Master of Science student in Statistics with a minor in Artificial Intelligence at Oregon State University, co-advised by Prof. Yuan Jiang and Prof. Xinzhou Ge. My research focuses on statistical and machine-learning methods for high-throughput sequencing and spatial omics data, with an emphasis on deriving biologically meaningful insights with translational potential.
 
 I work extensively with spatial transcriptomics technologies (including Xenium, Visium, Slide-seq, etc) and have contributed to three main research directions:
   
