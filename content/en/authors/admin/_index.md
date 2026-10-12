@@ -1,7 +1,7 @@
 ---
 
 title: Weiqi Grace Li
-intro_line: "\"I'm just passionately curious\" <br> <i class=\"fas fa-map-marker-alt\"></i> Corvallis, Oregon"
+intro_line: "\"I'm just passionately curious\" <br> <i class=\"fas fa-map-marker-alt\"></i> Seattle, Washington"
 
 
 bio: 
@@ -38,10 +38,10 @@ interests:
 
  
 organizations:
-- name: Oregon State University
-  url: "https://stat.oregonstate.edu"
+- name: University of Washington
+  url: "https://www.biostat.washington.edu"
   
-role: Master Student in Statistics
+role: PhD Student in Biostatistics
 
 
 email: "grace.weiqi.li@gmail.com"
@@ -80,31 +80,25 @@ superuser: true
 ---
   
   
-I am a Master of Science student in Statistics with a minor in Artificial Intelligence at Oregon State University, co-advised by Prof. Yuan Jiang and Prof. Xinzhou Ge. My research focuses on statistical and machine-learning methods for high-throughput sequencing and spatial omics data, with an emphasis on deriving biologically meaningful insights with translational potential.
+I am a first-year PhD student in Biostatistics at the University of Washington, where I work as a research assistant for Dr. Ali Shojaie and Dr. Kevin Lin. I received my M.S. in Statistics from Oregon State University, co-advised by Dr. Yuan Jiang and Dr. Xinzhou Ge. My research focuses on statistical and machine-learning methods for high-throughput sequencing and spatial omics data.
 
-I work extensively with spatial transcriptomics technologies (including Xenium, Visium, Slide-seq, etc) and have contributed to three main research directions:
+I work extensively with spatial transcriptomics technologies, and my work spans three directions:
   
   -	benchmarking cell-type-specific spatially variable gene (ctSVG) detection methods using a realistic and decomposable simulation framework,
  
-  -	deep-learning models for predicting spatial gene expression from histology images,
+  -	statistical models for estimating gene-gene correlation and regulatory networks,
   
   -	machine-learning approaches for cell-type annotation in single cell resolution spatial data.
-  
-Broadly, I am interested in statistical genomics and excited to explore diverse datasets and methodological challenges.
   
   
 ### Education
 
+**Ph.D. in Biostatistics**, University of Washington (2026–present; expected 2031)
+
 **M.S. in Statistics**, Oregon State University (2024–2026)
 
-Sole recipient of the Seely’s Award, granted to the top first-year graduate student through faculty vote.
+Sole recipient of the [Seely’s Award](https://stat.oregonstate.edu/statistics-news-events/news-briefs/seely-and-gta-award-winners), granted to the top first-year graduate student through faculty vote.
 
 **B.S. in Business Administration**, Babson College (2017–2021)
 
 Valedictorian, Class of 2021
-
-
-### Latest News
-
-- **November 13, 2025**: Received [Seely Award](https://stat.oregonstate.edu/statistics-news-events/news-briefs/seely-and-gta-award-winners) recognizing “students with highest performance in comprehensive exams”. 
-

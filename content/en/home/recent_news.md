@@ -9,21 +9,22 @@ headless: true
 # Order that this section appears on the page.
 weight: 15
 
-title: News
+title: Latest News
 subtitle:
 # ex_link: '/news'  
 # ex_link_title: 'All news»'  
 
-active: false
+active: true
 
 
 design:
   # Choose a view for the listings:
   view: compact
-  columns: '2'
+  columns: '1'
 ---
 
-- Served as the conference reviewer of CVPR, ECCV, ICCV, ICLR, NeurIPS, 3DV and IROS.
+- **June 16, 2026**: Received the runner-up Outstanding Oral Presentation Award at WNAR 2026 for my talk “Benchmarking Cell-Type-Specific Spatially Variable Gene Detection Methods”.
 
-- Served as the reviewer of multiple journals: TPAMI, IJCV, SIGGRAPH and RA-L.
-  
+- **May 12, 2026**: Received the Scholarly Presentation Award from Oregon State University.
+
+- **March 16, 2026**: Presented “Reframing Spatial Transcriptomics Prediction: From Regression to Classification” at the ENAR 2026 Spring Meeting.
